@@ -1,0 +1,26 @@
+$(function(){
+	$(".mys").mousemove(function(){
+		$(".my").show();
+		$(".mys").addClass("dropdown-active")
+	});
+	$(".mys").mouseout(function(){
+		$(".my").hide();
+		$(".mys").removeClass("dropdown-active")
+	});
+	$(".shops").mousemove(function(){
+		$(".shop").show();
+		$(".shops").addClass("dropdown-active")
+	});
+	$(".shops").mouseout(function(){
+		$(".shop").hide();
+		$(".shops").removeClass("dropdown-active")
+	});
+	$(".htnas").mousemove(function(){
+		$(".htna").show();
+		$(".htnas").addClass("dropdown-active")
+	});
+	$(".htnas").mouseout(function(){
+		$(".htna").hide();
+		$(".htnas").removeClass("dropdown-active")
+	});
+})
